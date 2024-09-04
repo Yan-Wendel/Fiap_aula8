@@ -7,6 +7,7 @@ public class exercicio2 {
 ▪ Se for terça-feira, exiba ao usuário que terá feira de rua.*/
 	public static void main(String[] args) {
 		Calendar c = Calendar.getInstance();
+		//comando 'c.get(Calendar.DAY_OF_WEEK)' pega o dia de hj.
 		if(c.get(Calendar.DAY_OF_WEEK)==3) {
 			System.out.println("Hoje tem feira!");
 		} else {

@@ -1,10 +1,11 @@
 package Exercicios_aula8_objetos_nativos;
-
+/*Calendar com toda informação de datas e horas.*/
 import java.util.Calendar;
 
 public class Teste_de_calendario {
 
 	public static void main(String[] args) {
+			//altera calendar por uma letra.
 			Calendar c = Calendar.getInstance();
 			System.out.println("Data e Hora atual: " + c.getTime());
 			// Ano, mês e dia do mês e da semana
