@@ -14,15 +14,15 @@ public class exercicio5 {
 
         // Variável para armazenar a soma dos números
         int soma = 0;
-        System.out.println("Números sorteados:");
+        System.out.println("Numeros sorteados:");
         for (int i = 0; i < quant; i++) {
             // Gera um número aleatório entre MIN e MAX (inclusivo)
-            int numero = random.nextInt(MAX - MIN + 1) + MIN;
+            int numero = random.nextInt(MAX - MIN) + MIN;
             // Exibe o número sorteado
             System.out.print(numero + " ");
             // Soma o número ao total
             soma += numero;
-            System.out.println("\nSoma total dos números sorteados: " + soma);
+            System.out.println("\nSoma total dos numeros sorteados: " + soma);
         }
 
 	}
