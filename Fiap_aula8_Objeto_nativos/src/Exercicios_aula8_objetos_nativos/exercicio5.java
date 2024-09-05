@@ -22,6 +22,7 @@ public class exercicio5 {
             System.out.print(numero + " ");
             // Soma o número ao total
             soma += numero;
+            System.out.println("\nSoma total dos números sorteados: " + soma);
         }
 
 	}
